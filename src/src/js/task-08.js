@@ -4,7 +4,7 @@ logInForm.addEventListener("submit", (event) => {
   event.preventDefault();
 
   const emailInput = logInForm.elements.email;
-  const passWordInput = logInForm.elements.password;
+  const passwordInput = logInForm.elements.password;
 
   if (!emailInput.value || !passwordInput) {
     alert("All fields must be filled in.");
